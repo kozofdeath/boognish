@@ -1,0 +1,28 @@
+/*main.css*/
+
+body {
+	background-color:black;
+}
+
+.main {
+	/*background-image: url("http://img11.deviantart.net/5ac1/i/2010/306/d/c/jack_o_lantern_2_by_ericfreitas-d320vg3.jpg");*/
+	margin-top:5em;
+	width:70%;
+	height: 50em;
+	position:relative;
+	margin:0 auto;
+}
+
+.main > .contents > .button1 {
+	width:10%;
+	height:10%;
+	border-radius: 3.5px;
+	padding:20px;
+	margin: auto;
+ 	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.button1:hover {
+	cursor:pointer;
+}
